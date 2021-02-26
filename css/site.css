@@ -1,0 +1,292 @@
+html {
+  scroll-behavior: smooth;
+}
+h1,h2,h3,h4 {
+  font-family: 'Open sans', sans-serif;
+}
+.font-primary {
+  font-family: 'Nunito', sans-serif;
+}
+.font-secondary {
+  font-family: 'Open sans', sans-serif;
+}
+.color-primary {
+  color: #ffb03b !important;
+}
+.bg-primary {
+  background-color: #ffb03b !important;
+}
+.py-7 {
+  padding: 5rem 0;
+}
+.py-8 {
+  padding: 6rem 0;
+}
+.text-yellow {
+  color: yellow;
+}
+a, a:hover {
+  text-decoration: none;
+  color: white;
+}
+.text-white-75 {
+  color: rgba(255, 255, 255, 0.75);
+}
+.text-white-50 {
+  color: rgba(255, 255, 255, 0.50);
+}
+.bg-primary {
+  background: #f4623a !important;
+}
+.text-primary {
+  color: #f4623a !important
+}
+.btn-primary {
+  color: #fff;
+  background-color: #f4623a;
+  border-color: #f4623a;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #f4623a;
+  border-color: #ee3e0d;
+}
+.btn-primary:focus, .btn-primary.focus {
+  color: #fff;
+  background-color: #f4623a;
+  border-color: #ee3e0d;
+  box-shadow: 0 0 0 0.2rem rgba(246, 122, 88, 0.5);
+}
+.btn-primary.disabled, .btn-primary:disabled {
+  color: #fff;
+  background-color: #f4623a;
+  border-color: #f4623a;
+}
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #ee3e0d;
+  border-color: #e23a0d;
+}
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(246, 122, 88, 0.5);
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+.btn-secondary:hover {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+.btn-secondary:focus, .btn-secondary.focus {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #545b62;
+  box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+}
+.btn-secondary.disabled, .btn-secondary:disabled {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+.btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active, .show > .btn-secondary.dropdown-toggle {
+  color: #fff;
+  background-color: #545b62;
+  border-color: #4e555b;
+}
+.btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus, .show > .btn-secondary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+}
+
+.divider {
+  max-width: 3.25rem;
+  border-width: 0.2rem;
+  border-color: #f4623a;
+}
+
+#mainNav {
+  box-shadow: none;
+  background-color: transparent;
+}
+#mainNav .navbar-brand {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 700;
+}
+#mainNav .navbar-brand:hover {
+  color: #fff;
+}
+.navbar-nav .nav-item .nav-link {
+  color: rgba(255, 255, 255, 0.7);
+  padding: 0 1rem;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  color: #f4623a;
+}
+.navbar-nav .nav-item.active .nav-link {
+  color: #f4623a !important;
+}
+
+.navbar-nav .nav-item:last-child .nav-link {
+  padding-right: 0;
+}
+
+#mainNav.navbar-scrolled {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+}
+#mainNav.navbar-scrolled .navbar-brand {
+  color: #212529;
+}
+#mainNav.navbar-scrolled .navbar-brand:hover {
+  color: #f4623a;
+}
+#mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
+  color: #212529;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+  color: #f4623a;
+}
+
+.masthead {
+  height: 100vh;
+  min-height: 40rem;
+  padding-top: 4.5rem;
+  padding-bottom: 0;
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/header.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  text-align: center;
+}
+.masthead  h1 {
+  font-size: 3.5rem;
+}
+.masthead p {
+  font-size: 1.15rem;
+}
+
+.masthead .btn-xl {
+  padding: 1.25rem 2.25rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10rem;
+}
+
+#portfolio .container-fluid {
+  max-width: 1920px;
+}
+#portfolio .container-fluid .portfolio-box {
+  position: relative;
+  display: block;
+}
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  background: rgba(244, 98, 58, 0.9);
+  transition: opacity 0.25s ease;
+  text-align: center;
+}
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name {
+  font-size: 1.2rem;
+}
+#portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
+  opacity: 1;
+}
+
+.contact-section .container {
+  width: 60%;
+}
+.contact-info .fas, .contact-info .fab {
+  font-size: 2em;
+}
+.contact-info .form-control {
+  font-size: 13px;
+}
+
+#contact a {
+  color: #333;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  font-size: 13px;
+  padding: 0.5rem;
+}
+
+@media screen and (max-width: 800px) {
+  .masthead {
+    height: 50vh;
+    min-height: 35rem;
+    padding-top: 8rem;
+    padding-bottom: calc(10rem - 4.5rem);
+  }
+  .masthead h1 {
+    font-size: 2.5rem;
+  }
+  #mainNav {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    transition: background-color 0.2s ease;
+  }
+  #mainNav .navbar-nav {
+    text-align: center;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: #6c757d;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 0.75rem 0;
+  }
+  #mainNav .navbar-brand {
+    font-weight: 700;
+    color: #212529;
+  }
+  .navbar-toggler {
+    border: 1px solid #6c757d !important;
+  }
+  .fa-bars {
+    color: #6c757d;
+    font-size: 25px;
+  }
+  .contact-section .container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .masthead {
+    height: 50vh;
+    min-height: 37rem;
+    padding-top: 9rem;
+    padding-bottom: calc(10rem - 5rem);
+  }
+  .masthead h1 {
+    font-size: 2rem;
+  }
+}
